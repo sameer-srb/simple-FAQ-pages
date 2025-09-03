@@ -92,6 +92,12 @@ hr {
   header {
     padding: 72px 0;
   }
+
+  .faq-header {
+  text-align: center;
+  padding: 0 24px;
+}
+ 
   main {
     padding: 72px 12px;
   }
