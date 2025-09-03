@@ -61,7 +61,7 @@ main {
 ol,
 ul {
   margin: 24px 0;
-  padding-left: 20px; /*Indent list items */
+  padding-left: 17px; /*Indent list items */
   
 }
 
@@ -113,7 +113,7 @@ hr {
 ol,
 ul {
 
-  padding:0 20px; /*Indent list items */
+  padding:0 17px; /*Indent list items */
   
 }
 
