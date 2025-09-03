@@ -101,7 +101,7 @@ hr {
  
   main {
     padding: 72px 12px;
-    background-color: aquamarine;
+    
   }
   .faq-container {
     width: auto;
@@ -110,6 +110,11 @@ hr {
   hr {
   width: auto;
 }
+ol,
+ul {
 
+  padding:0 20px; /*Indent list items */
+  
+}
 
 }
