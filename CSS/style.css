@@ -1,0 +1,102 @@
+/*=============== Reset Style ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Inter", sans-serif; /* Google font */
+}
+
+/*=============== Global text color ===============*/
+h1,
+h2,
+p,
+strong {
+  color: #030616;
+}
+
+/*=============== Typography ===============*/
+h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+p,
+li {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/*=============== Layout ===============*/
+header {
+  padding: 72px 24px;
+}
+
+.faq-header {
+  text-align: center;
+}
+
+main {
+  padding: 72px 24px;
+  background-color: #f8fafc;
+}
+
+.faq-container {
+  width: 640px;
+  margin: 0 auto;
+}
+
+/*=============== list ===============*/
+ol,
+ul {
+  margin: 24px 0;
+  padding-left: 16px; /* Indent list items */
+}
+
+li {
+  line-height: 32px;
+}
+
+/*=============== links ===============*/
+a {
+  text-decoration: none; /* Remove underline */
+  color: #4e80ee; /* Blue color for links */
+}
+
+/*=============== Divider ===============*/
+hr {
+  margin: 40px 0;
+  width: 671px;
+  border: none;
+  height: 0; /* height is 0, so only border shows */
+  border-top: 1px solid #d2d5da;
+}
+
+/* ===========================
+        Responsive Design
+=============================== */
+
+/*=============== Mobile (≤640px) ===============*/
+@media (max-width: 640px) {
+  header {
+    padding: 72px 0;
+  }
+  main {
+    padding: 72px 12px;
+  }
+  .faq-container {
+    width: auto;
+    padding: 0 24px;
+  }
+}
