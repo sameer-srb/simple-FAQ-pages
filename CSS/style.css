@@ -61,11 +61,12 @@ main {
 ol,
 ul {
   margin: 24px 0;
-  padding-left: 16px; /* Indent list items */
+  padding-left: 20px; /*Indent list items */
+  
 }
 
 li {
-  line-height: 32px;
+  line-height: 2rem;
 }
 
 /*=============== links ===============*/
@@ -100,6 +101,7 @@ hr {
  
   main {
     padding: 72px 12px;
+    background-color: aquamarine;
   }
   .faq-container {
     width: auto;
@@ -107,6 +109,7 @@ hr {
   }
   hr {
   width: auto;
-  
 }
+
+
 }
